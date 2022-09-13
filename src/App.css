@@ -1,0 +1,175 @@
+
+
+
+
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+.menu ul{
+  display: flex;
+  list-style: none;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 0 10px;
+}
+
+.heromain {
+  display: flex;
+  width: 100%;
+  height: 91.8vh;
+}
+
+.left, .right {
+  width: 50%;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn1 {
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+}
+
+.btn1 a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.hype {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-size: 108px;
+  margin-bottom: 0;
+}
+
+.img1 {
+  width: 150px;
+  height: 150px;
+}
+.right {
+  max-height: 100vh ;
+  overflow: hidden;
+}
+
+.carimg {
+  width: 100%;
+  height: 100%;
+}
+
+.discover {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+
+.backimg {
+  margin-top: 50px;
+  height: 80%;
+  width: 80%;
+  margin-left: 0;
+}
+
+.left2, .right2 {
+  width: 50%;
+  overflow: hidden;
+}
+
+.overlapimg {
+  height: 40%;
+  width: 40%;
+  position: relative;
+  bottom: 140px;
+  left: 320px;
+  z-index: 100;
+}
+
+.right2 {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+}
+
+.right2 h2, .right2 p , .right2 a{
+  margin: 10px 30px;
+}
+
+.btn2 {
+  text-decoration: underline;
+  color: black;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.about {
+  display: flex;
+  width: 100%;
+  height: 80vh;
+}
+
+.left3 {
+  width:60%;
+  overflow: hidden;
+}
+.right3 {
+  width: 40%;
+}
+
+.box {
+  width: 80%;
+  height: 95%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.minibox {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  margin-left: 60px;
+  flex-direction: column;
+}
+
+.minibox h4 {
+  margin-bottom: 0;
+}
+
+.aboutback {
+  width: 70%;
+  margin-left: 220px;
+  height: 480px;
+}
+
+.aboutfront {
+  width: 25%;
+  height: 40%;
+  position: relative;
+  bottom: 280px;
+  left: 80px;
+}
